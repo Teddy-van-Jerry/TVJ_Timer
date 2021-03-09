@@ -3,7 +3,7 @@ It provides a TVJ_Timer class that simplifies the use of timer in C++.
 > **Tip:** At least C++/11 is needed.
 
 ## Version
-Version 1.0 updated in 2021/03/01.
+Version 1.1 updated in 2021/03/09.
 
 ## Include
 `#include "TVJ_Timer"`
