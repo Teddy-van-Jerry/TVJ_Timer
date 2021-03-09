@@ -5,6 +5,9 @@
  * @author: Teddy van Jerry
  * @licence: The MIT Licence
  * 
+ * @version 1.1 2021/03/09
+ * - bug fix
+ *
  * @version 1.0 2021/03/01
  * - initial version
  * 
@@ -44,7 +47,7 @@ public:
 		o_with_unit = output_with_unit;
 		if (time_unit == "") time_unit = "m";
 		t_unit = time_unit[0];
-		if (time_unit.length() == 3 && time_unit[1] == '.' && '0' < time_unit[2] <= '9')
+		if (time_unit.length() == 3 && time_unit[1] == '.' && '0' < time_unit[2] && time_unit[2] <= '9')
 		{
 			precision = time_unit[2] - '0';
 		}
